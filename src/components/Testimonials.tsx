@@ -13,8 +13,8 @@ const companies = [
     logo: "https://travel-light.co/assets/img/img/logo.png",
   },
   {
-    name: "Digital Solutions",
-    logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=200&fit=crop",
+    name: "Al Hajri",
+    logo: "https://fast-fix.co/assets/img/logo/logo.png",
   },
   {
     name: "WebMasters",
