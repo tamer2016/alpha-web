@@ -4,8 +4,16 @@ import { ArrowRight } from "lucide-react";
 export const Hero = () => {
   return (
     <section className="min-h-[80vh] flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent" />
-      <div className="container mx-auto px-4">
+      <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/10 to-transparent" />
+      <div 
+        className="absolute inset-0 opacity-10" 
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=2000')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
+      <div className="container mx-auto px-4 relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -13,15 +21,15 @@ export const Hero = () => {
           className="text-center max-w-4xl mx-auto"
         >
           <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium rounded-full bg-primary/10 text-primary animate-fade-in">
-            نرتقي بأعمالك نحو المستقبل الرقمي
+            Elevating Your Business to Digital Excellence
           </span>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            نطور حلول رقمية متكاملة
+            We Create Digital Solutions
             <br />
-            <span className="text-primary">لنمو أعمالك</span>
+            <span className="text-primary">For Your Growth</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8">
-            نقدم خدمات تطوير المواقع والمتاجر الإلكترونية بأحدث التقنيات
+            Delivering cutting-edge web development and e-commerce solutions
           </p>
           <motion.div
             initial={{ opacity: 0 }}
@@ -32,7 +40,7 @@ export const Hero = () => {
               href="#contact"
               className="inline-flex items-center gap-2 px-8 py-4 text-lg font-medium text-white bg-accent rounded-lg hover-scale"
             >
-              ابدأ مشروعك
+              Start Your Project
               <ArrowRight className="w-5 h-5" />
             </a>
           </motion.div>

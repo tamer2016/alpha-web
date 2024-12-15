@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 const services = [
   {
     icon: Globe,
-    title: "تطوير المواقع",
-    description: "تصميم وتطوير مواقع احترافية تناسب احتياجات عملك",
+    title: "Web Development",
+    description: "Professional websites tailored to your business needs",
   },
   {
     icon: ShoppingCart,
-    title: "المتاجر الإلكترونية",
-    description: "إنشاء متاجر إلكترونية متكاملة مع أنظمة الدفع والشحن",
+    title: "E-commerce Solutions",
+    description: "Complete online stores with payment and shipping integration",
   },
   {
     icon: Server,
-    title: "الخدمات الإلكترونية",
-    description: "حلول تقنية متكاملة لتحسين كفاءة عملك",
+    title: "Digital Services",
+    description: "Comprehensive tech solutions to enhance your business efficiency",
   },
 ];
 
 export const Services = () => {
   return (
-    <section className="section-padding bg-secondary">
+    <section className="section-padding bg-gradient-to-br from-[#E5DEFF] to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.h2
@@ -30,9 +30,9 @@ export const Services = () => {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold mb-4"
           >
-            خدماتنا
+            Our Services
           </motion.h2>
-          <p className="text-gray-600">نقدم حلولاً متكاملة لتطوير أعمالك</p>
+          <p className="text-gray-600">Comprehensive solutions for your digital growth</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
