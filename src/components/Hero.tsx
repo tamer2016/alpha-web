@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -31,19 +30,6 @@ export const Hero = () => {
           <p className="text-lg md:text-xl text-gray-600 mb-8">
             Delivering cutting-edge web development and e-commerce solutions
           </p>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
-          >
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 px-8 py-4 text-lg font-medium text-white bg-accent rounded-lg hover-scale"
-            >
-              Start Your Project
-              <ArrowRight className="w-5 h-5" />
-            </a>
-          </motion.div>
         </motion.div>
       </div>
     </section>
