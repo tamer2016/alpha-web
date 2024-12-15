@@ -18,7 +18,7 @@ export const Footer = () => {
           </div>
 
           {/* Common Links */}
-          <div className="text-center">
+          <div className="text-left">
             <h3 className="text-xl font-semibold mb-6">Common Links</h3>
             <ul className="space-y-3">
               <li><Link to="#" className="hover:text-primary transition-colors">Who We Are</Link></li>
@@ -31,20 +31,20 @@ export const Footer = () => {
           </div>
 
           {/* Contacts  */}
-          <div className="text-center">
-            <h3 className="text-xl font-semibold mb-6">Common Links</h3>
+          <div className="text-left">
+            <h3 className="text-xl font-semibold mb-6">Contact us</h3>
             <ul className="space-y-3">
               <li><Link to="#" className="hover:text-primary transition-colors">Egypt</Link></li>
               <li><Link to="#" className="hover:text-primary transition-colors">41 ElMahgoub street - New Damietta</Link></li>
+              <li><Link to="#" className="hover:text-primary transition-colors">+20 1040251475</Link></li>
               <li><Link to="#" className="hover:text-primary transition-colors">Australia</Link></li>
               <li><Link to="#" className="hover:text-primary transition-colors">123 Hazil street - Ascot Park</Link></li>
-              <li><Link to="#" className="hover:text-primary transition-colors">United Kingdom</Link></li>
-              <li><Link to="#" className="hover:text-primary transition-colors">Grafton way DX, London</Link></li>
+              <li><Link to="#" className="hover:text-primary transition-colors">info@alphaebusiness.net</Link></li>
             </ul>
           </div>
 
           {/* Our Services */}
-          <div className="text-center">
+          <div className="text-left">
             <h3 className="text-xl font-semibold mb-6">Our Services</h3>
             <ul className="space-y-3">
               <li><Link to="#" className="hover:text-primary transition-colors">Digital Marketing</Link></li>
