@@ -18,28 +18,7 @@ export const Footer = () => {
           </div>
 
           {/* Contact Us */}
-          <div className="text-center">
-            <h3 className="text-xl font-semibold mb-6">Contact Us</h3>
-            <div className="space-y-3">
-              <p>966-504699037</p>
-              <p>20-1114408140</p>
-              <p>info@click4ebusiness.com</p>
-              <div className="flex gap-4 mt-4">
-                <Link to="#" className="hover:text-primary transition-colors">
-                  <Globe className="w-5 h-5" />
-                </Link>
-                <Link to="#" className="hover:text-primary transition-colors">
-                  <Instagram className="w-5 h-5" />
-                </Link>
-                <Link to="#" className="hover:text-primary transition-colors">
-                  <Facebook className="w-5 h-5" />
-                </Link>
-                <Link to="#" className="hover:text-primary transition-colors">
-                  <Twitter className="w-5 h-5" />
-                </Link>
-              </div>
-            </div>
-          </div>
+
 
           {/* Common Links */}
           <div className="text-center">
