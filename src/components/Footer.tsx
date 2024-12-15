@@ -4,21 +4,18 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <footer className="bg-[#1A1F2C] text-white py-16">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-6">Click4ebusiness</h2>
-            <p className="text-gray-300 mb-4">
+            <p className="text-gray-300 mb-3">
               Technologies and Business Solutions
             </p>
             <p className="text-gray-300">
               Creating innovative technical and marketing values that bring together people, business, and technology.
             </p>
           </div>
-
-          {/* Contact Us */}
-
 
           {/* Common Links */}
           <div className="text-center">
