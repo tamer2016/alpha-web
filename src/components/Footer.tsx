@@ -5,11 +5,11 @@ export const Footer = () => {
   return (
     <footer className="bg-[#1A1F2C] text-white py-16">
       <div className="container mx-auto px-3">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-6">Click4ebusiness</h2>
-            <p className="text-gray-300 mb-3">
+            <p className="text-gray-300 mb-4">
               Technologies and Business Solutions
             </p>
             <p className="text-gray-300">
@@ -27,6 +27,19 @@ export const Footer = () => {
               <li><Link to="#" className="hover:text-primary transition-colors">Our Work</Link></li>
               <li><Link to="#" className="hover:text-primary transition-colors">Media Center</Link></li>
               <li><Link to="#" className="hover:text-primary transition-colors">Client Opinions</Link></li>
+            </ul>
+          </div>
+
+          {/* Contacts  */}
+          <div className="text-center">
+            <h3 className="text-xl font-semibold mb-6">Common Links</h3>
+            <ul className="space-y-3">
+              <li><Link to="#" className="hover:text-primary transition-colors">Egypt</Link></li>
+              <li><Link to="#" className="hover:text-primary transition-colors">41 ElMahgoub street - New Damietta</Link></li>
+              <li><Link to="#" className="hover:text-primary transition-colors">Australia</Link></li>
+              <li><Link to="#" className="hover:text-primary transition-colors">123 Hazil street - Ascot Park</Link></li>
+              <li><Link to="#" className="hover:text-primary transition-colors">United Kingdom</Link></li>
+              <li><Link to="#" className="hover:text-primary transition-colors">Grafton way DX, London</Link></li>
             </ul>
           </div>
 
