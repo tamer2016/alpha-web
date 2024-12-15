@@ -17,12 +17,16 @@ const companies = [
     logo: "https://fast-fix.co/assets/img/logo/logo.png",
   },
   {
-    name: "WebMasters",
-    logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=200&fit=crop",
+    name: "D Fruit",
+    logo: "https://meyzah.com/wp-content/uploads/2023/03/dfruit.png",
   },
   {
-    name: "Cloud Systems",
-    logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=200&fit=crop",
+    name: "M2M Company",
+    logo: "https://www.uno.com.my/img/portfolio/webapplication/m2m-thumb.webp",
+  },
+   {
+    name: "ZUS Coffe",
+    logo: "https://imagint.co/wp-content/uploads/2023/03/portfolio_zus-768x820.png",
   },
 ];
 
