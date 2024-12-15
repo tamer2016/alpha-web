@@ -58,7 +58,7 @@ export const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-16 pt-8 border-t border-gray-700 text-center text-gray-400">
-          <p>© 2024 Click4e. All rights reserved.</p>
+          <p>© 2024 ClickeBusiness. All rights reserved.</p>
         </div>
       </div>
     </footer>
