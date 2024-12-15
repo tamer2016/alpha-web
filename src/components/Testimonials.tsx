@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 
 const companies = [
   {
-    name: "TechCorp",
-    logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=200&fit=crop",
+    name: "Travel light",
+    logo: "https://travel-light.co/assets/img/img/logo.png",
   },
   {
     name: "Digital Solutions",
