@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div className="text-right">
+          <div className="text-center">
             <h2 className="text-2xl font-bold mb-6">Click4ebusiness</h2>
             <p className="text-gray-300 mb-4">
               Technologies and Business Solutions
@@ -18,7 +18,7 @@ export const Footer = () => {
           </div>
 
           {/* Contact Us */}
-          <div className="text-right">
+          <div className="text-center">
             <h3 className="text-xl font-semibold mb-6">Contact Us</h3>
             <div className="space-y-3">
               <p>966-504699037</p>
@@ -42,7 +42,7 @@ export const Footer = () => {
           </div>
 
           {/* Common Links */}
-          <div className="text-right">
+          <div className="text-center">
             <h3 className="text-xl font-semibold mb-6">Common Links</h3>
             <ul className="space-y-3">
               <li><Link to="#" className="hover:text-primary transition-colors">Who We Are</Link></li>
@@ -55,7 +55,7 @@ export const Footer = () => {
           </div>
 
           {/* Our Services */}
-          <div className="text-right">
+          <div className="text-center">
             <h3 className="text-xl font-semibold mb-6">Our Services</h3>
             <ul className="space-y-3">
               <li><Link to="#" className="hover:text-primary transition-colors">Digital Marketing</Link></li>
