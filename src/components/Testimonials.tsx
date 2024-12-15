@@ -28,6 +28,22 @@ const companies = [
     name: "ZUS Coffe",
     logo: "https://imagint.co/wp-content/uploads/2023/03/portfolio_zus-768x820.png",
   },
+  {
+    name: "Law Firm elraif",
+    logo: "https://elraif.com/images/logo.png",
+  },
+  {
+    name: "Law Firm MG",
+    logo: "https://assets.wuiltweb.com/239846/%D9%84%D9%88%D8%AC%D9%88-%D9%83%D8%A8%D9%8A%D9%8A%D9%8A%D9%8A%D9%8A%D9%8A%D8%B1.png",
+  },
+  {
+    name: "Turky Care",
+    logo: "https://turkey-care.com/wp-content/themes/planet/img/logo.png",
+  },
+  {
+    name: "Car Rent",
+    logo: "https://www.uno.com.my/img/portfolio/webapplication/sewadeecar-thumb.webp",
+  },
 ];
 
 export const Testimonials = () => {
